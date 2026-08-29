@@ -103,13 +103,13 @@ The developers of WolfPresence make no guarantees regarding the behavior, availa
 
 ---
 
-## 🐺 Support & Community
+## 🐺 Download, Support & Community
 
 Have questions, suggestions, or need help?
 
 Join our official community:
 
-👉 **[Discord WolfSquad Support](https://discord.com/invite/MvZqaM5b44)**
+👉 **[Discord WolfSquad](https://discord.com/invite/MvZqaM5b44)**
 
 ---
 
