@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🐺 WolfPresence v1.3.3.7
-### *The Ultimate Discord Game Presence & Quest Automation Suite*
+### *Discord Game Presence & Process Simulation Suite*
 
 [![Version](https://img.shields.io/badge/Version-1.3.3.7-7c3aed.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/MvZqaM5b44)
 [![Platform](https://img.shields.io/badge/Platform-Windows-00c6ff.svg?style=for-the-badge&logo=windows&logoColor=white)](https://discord.com/invite/MvZqaM5b44)
@@ -10,7 +10,11 @@
 
 <br/>
 
-**WolfPresence** is an ultra-lightweight, high-fidelity emulator designed to simulate game presence on **Discord**. Built to complete **Discord Quests** with 100% automation, customize your "Playing..." status, and manage more than **24,000+ detectable games** through a modern visual interface inspired by the **SteamWolf** aesthetic.
+**WolfPresence** is a lightweight Windows application designed for game-process simulation, Discord presence testing, and customizable game activity workflows.
+
+It provides a modern interface for managing simulated game processes, organizing timed sessions, creating shortcuts, and working with a catalog of supported game process names.
+
+> **Disclaimer:** WolfPresence is an independent third-party project and is not affiliated with, endorsed by, or sponsored by Discord Inc. Users are responsible for complying with Discord's Terms of Service and applicable platform rules.
 
 ---
 
@@ -18,14 +22,14 @@
 
 ## 🌟 Main Features
 
-- 🎮 **Global Catalog of 24,000+ Games:** Real-time synchronization with Discord's official game detection database (Fortnite, Valorant, Genshin Impact, LoL, GTA V, and thousands more).
-- ⚡ **Automated Quest Queue (15 Minutes):** Add games to the queue with a simple **right-click**. Each quest will run for exactly 15 minutes before automatically moving on to the next one sequentially.
-- ⏱️ **Live Floating HUD:** Digital countdown timer (`15:00` → `00:00`) with an animated progress bar featuring a tricolor gradient.
-- 🐺 **SteamWolf Gaming Aesthetic:** Dark cosmic velvet design (`#0f0a1a`), glassmorphism blur effects, rounded corners, and smooth micro-animations.
-- 🖼️ **Simulated Process with Logo & Timer:** Lightweight C# WinForms window featuring the WolfSquad emblem and a live elapsed-time counter.
-- 🛡️ **Zero Ban Risk:** Does not inject DLLs, modify memory, or interact with Discord's files. It simply launches a lightweight Windows process using the exact executable name that Discord natively detects.
-- 🔗 **One-Click Shortcuts:** Create desktop shortcuts to instantly launch the simulation of any game.
-- 📦 **Setup & Portable Versions:** Available as an installer with the official `.ico` and as a standalone `.exe` portable version requiring no installation.
+- 🎮 **Global Catalog of 24,000+ Games:** Browse a large catalog of supported game process names for testing and activity simulation.
+- ⚡ **Automated Session Queue:** Add games to a queue with a simple **right-click** and configure timed sessions for each entry.
+- ⏱️ **Live Floating HUD:** Digital countdown timer (`15:00` → `00:00`) with an animated progress bar.
+- 🐺 **SteamWolf Gaming Aesthetic:** Dark cosmic velvet design (`#0f0a1a`), glassmorphism effects, rounded corners, and smooth micro-animations.
+- 🖼️ **Simulated Process Window:** Lightweight C# WinForms interface displaying the selected game, WolfSquad branding, and live session time.
+- 🔗 **One-Click Shortcuts:** Create desktop shortcuts for launching configured process simulations.
+- 📦 **Setup & Portable Versions:** Available as both a Windows installer and a standalone portable executable.
+- 💻 **Low Resource Usage:** Designed to keep CPU and memory usage low during normal operation.
 
 ---
 
@@ -40,37 +44,72 @@
 ### Option B: Portable Version
 
 1. Download `WolfPresence-v1.3.3.7-Portable.exe`.
-2. Double-click it and use it directly from any folder or USB drive.
+2. Run the executable directly from any folder or USB drive.
 
 ---
 
-## ⚡ How Does the 15-Minute Quest Queue Work?
+## ⚡ How Does the Session Queue Work?
 
 1. Open **WolfPresence**.
 2. **Right-click** any game in your library or in the **24k+ Catalog**.
 3. Select **`⚡ Add to Queue (15m)`**.
 4. Click **`▶ Start Queue`** in the floating top bar.
-5. That's it! The app will emulate exactly 15 minutes for each game, completing your Discord Quests without requiring the heavy games to be installed or running.
+5. Each selected entry will run for the configured duration before the queue automatically proceeds to the next entry.
 
 ---
 
-## 🛡️ Frequently Asked Questions (FAQ)
+## 🧪 Intended Use
 
-### Is there any risk of getting banned on Discord?
+WolfPresence can be useful for:
 
-> **No.** WolfPresence works exactly as if you had launched the actual game. Discord detects games by reading the names of processes running on Windows (`GetProcessesByName`). No hidden APIs, tokens, or code injection are used.
-
-### Do I need to have the games installed?
-
-> **No.** WolfPresence creates a simulated background executable using the exact name of the game (`FortniteClient-Win64-Shipping.exe`, etc.), fooling Discord while consuming less than 10 MB of RAM.
+- Testing Windows process-detection workflows.
+- Developing and testing applications that interact with game activity detection.
+- Creating custom game activity simulations.
+- Testing Discord presence-related integrations in controlled environments.
+- Demonstrating process-based game detection concepts.
+- Creating lightweight development and testing environments.
 
 ---
 
-## 🐺 Download, Support & Community
+## 🛡️ Security & Privacy
 
-Have questions, suggestions, or need help? Join our official server:
+WolfPresence is designed to operate locally on Windows.
 
-👉 **[Discord WolfSquad](https://discord.com/invite/MvZqaM5b44)**
+The application does not require:
+
+- Discord account credentials.
+- Discord authentication tokens.
+- Passwords.
+- Browser session data.
+- Remote account access.
+
+WolfPresence does not modify Discord's installation files or attempt to access private Discord account data.
+
+Always download releases from trusted sources and review the source code before running third-party builds.
+
+---
+
+## ⚠️ Important Disclaimer
+
+WolfPresence is an independent third-party project.
+
+It is **not affiliated with or endorsed by Discord Inc.**
+
+Discord and its associated trademarks belong to their respective owners.
+
+Users should use the software responsibly and comply with the Terms of Service, Community Guidelines, and other applicable rules of any third-party service.
+
+The developers of WolfPresence make no guarantees regarding the behavior, availability, or compatibility of third-party services.
+
+---
+
+## 🐺 Support & Community
+
+Have questions, suggestions, or need help?
+
+Join our official community:
+
+👉 **[Discord WolfSquad Support](https://discord.com/invite/MvZqaM5b44)**
 
 ---
 
