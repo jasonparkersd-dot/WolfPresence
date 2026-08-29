@@ -1,6 +1,9 @@
 <div align="center">
 
 # 🐺 WolfPresence v1.3.3.7
+
+<img src="https://raw.githubusercontent.com/jasonparkersd-dot/WolfPresence/main/177a7c05-94af-4e1a-8c41-77806deecfd4.png" width="220">
+
 ### *Discord Game Presence & Process Simulation Suite*
 
 [![Version](https://img.shields.io/badge/Version-1.3.3.7-7c3aed.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/MvZqaM5b44)
